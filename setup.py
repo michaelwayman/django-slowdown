@@ -3,7 +3,6 @@ import os
 
 
 INSTALL_REQUIREMENTS = [
-    'Django>=1.10,<=1.11',
 ]
 
 setup(

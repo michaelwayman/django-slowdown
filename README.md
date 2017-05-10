@@ -14,14 +14,29 @@ When the backend loads too fast during development it is easy to forget to:
  - Disable buttons to prevent double form submit.
  - Add simple animations and transitions.
  - Load as you scroll.
- - Look at your site *while* content loads.
+ - Look at your site *as* content loads.
  - etc...
 
 ## Installation & Usage
 
+This package has no *listed* dependencies.
+
+Works with Django>=1.10
+
 #### 1. Install python package
 
-`python setup.py`
+run setup.py (download/clone the repo and run)
+
+```
+python setup.py
+```
+
+with pip (not on PyPI yet)
+
+```
+pip install git+https://github.com/michaelwayman/django-slowdown
+```
+
 
 #### 2. Add to django MIDDLEWARE
 
